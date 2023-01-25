@@ -1,6 +1,6 @@
 import styled from '@emotion/styled';
 
-export const ListItem = styled.li`
+export const List = styled.li`
   padding: 5px;
 `;
 
@@ -12,7 +12,7 @@ export const Text = styled.p`
   text-transform: uppercase;
 `;
 
-export const StatisticText = styled.span`
+export const Statistics = styled.span`
   color: #2196f3;
   margin-left: 20px;
   font-weight: 700;

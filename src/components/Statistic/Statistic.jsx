@@ -1,37 +1,37 @@
 import React from 'react';
-import { ListItem, Text, StatisticText } from './Statistic.styled';
+import { List, Text, Statistics } from './Statistic.styled';
 import PropTypes from 'prop-types';
 
 const Statistic = ({ good, neutral, bad, total, positivePercentage }) => {
   return (
     <>
       <ul>
-        <ListItem>
+        <List>
           <Text>
-            Good: <StatisticText>{good}</StatisticText>
+            Good: <Statistics>{good}</Statistics>
           </Text>
-        </ListItem>
-        <ListItem>
+        </List>
+        <List>
           <Text>
-            Neutral: <StatisticText>{neutral}</StatisticText>
+            Neutral: <Statistics>{neutral}</Statistics>
           </Text>
-        </ListItem>
-        <ListItem>
+        </List>
+        <List>
           <Text>
-            Bad: <StatisticText>{bad}</StatisticText>
+            Bad: <Statistics>{bad}</Statistics>
           </Text>
-        </ListItem>
-        <ListItem>
+        </List>
+        <List>
           <Text>
-            Total: <StatisticText>{total}</StatisticText>
+            Total: <Statistics>{total}</Statistics>
           </Text>
-        </ListItem>
-        <ListItem>
+        </List>
+        <List>
           <Text>
             Positive feedback:{' '}
-            <StatisticText>{positivePercentage} %</StatisticText>
+            <Statistics>{positivePercentage} %</Statistics>
           </Text>
-        </ListItem>
+        </List>
       </ul>
     </>
   );
