@@ -8,21 +8,21 @@ export const ButtonList = styled.ul`
 `;
 
 export const Button = styled.button`
-  min-width: 100px;
-  padding: 10px 20px;
+  min-width: 80px;
+  padding: 5px 10px;
   border-radius: 5px;
-  border: none;
+  border: 1px solid grey;
   cursor: pointer;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.14;
-  background-color: #d3d3d3;
+  background-color: #ffffff;
   transition: color 250ms linear;
   transition: background-color 250ms linear;
   :hover,
   :focus {
     background-color: #2196f3;
-    color: white;
+    color: #00000044;
   }
   ::first-letter {
     text-transform: uppercase;

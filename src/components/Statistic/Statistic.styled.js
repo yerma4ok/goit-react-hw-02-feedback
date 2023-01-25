@@ -1,7 +1,7 @@
 import styled from '@emotion/styled';
 
 export const List = styled.li`
-  padding: 5px;
+  padding: 0;
 `;
 
 export const Text = styled.p`
@@ -9,11 +9,10 @@ export const Text = styled.p`
   font-weight: 700;
   font-size: 18px;
   line-height: 1.14;
-  text-transform: uppercase;
-`;
+  `;
 
 export const Statistics = styled.span`
-  color: #2196f3;
+  color: #212121;
   margin-left: 20px;
   font-weight: 700;
   font-size: 20px;

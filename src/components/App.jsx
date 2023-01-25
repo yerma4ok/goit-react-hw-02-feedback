@@ -40,7 +40,7 @@ class App extends Component {
             onLeaveFeedback={this.updateFeedbackState}
           />
         </Section>
-        <Section title={'Statistic'}>
+        <Section title={'Statistics'}>
           {totalCount ? (
             <Statistic
               good={this.state.good}

@@ -14,6 +14,5 @@ export const SectionBox = styled.div`
 export const Title = styled.h2`
   margin-top: 10px;
   margin-bottom: 20px;
-  text-transform: uppercase;
   text-align: center;
 `;
