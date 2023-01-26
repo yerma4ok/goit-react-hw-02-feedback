@@ -34,13 +34,13 @@ class App extends Component {
 
     return (
       <>
-        <Section title={'Please leave feedback'}>
+        <Section title="Please leave feedback">
           <FeedbackOptions
             options={Object.keys(this.state)}
             onLeaveFeedback={this.updateFeedbackState}
           />
         </Section>
-        <Section title={'Statistics'}>
+        <Section title="Statistics">
           {totalCount ? (
             <Statistic
               good={this.state.good}
